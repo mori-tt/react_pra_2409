@@ -1,6 +1,6 @@
 import ReactDOMclient from "react-dom/client";
-import { App } from "./App";
+import { ParentComponent } from "./Parent";
 
 const container = document.getElementById("root");
 const root = ReactDOMclient.createRoot(container);
-root.render(<App />);
+root.render(<ParentComponent />);
